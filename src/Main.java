@@ -78,5 +78,7 @@ public class Main {
         quociente = resto / moeda;
         System.out.println(quociente + " moeda(s) de R$ 0.1");
         resto = resto % moeda;
+        
+        sc.close();
     }
 }
